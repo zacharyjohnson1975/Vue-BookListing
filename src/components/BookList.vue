@@ -6,22 +6,8 @@
 
 <script>
     export default {
-        props: {
-            name: {
-                type: String,
-                default: 'BookList'
-            },
-             title: {
-                type: String,
-                default: 'All Books' 
-            },
-        },
-        methods: {
-            data() {
-                title = 'All Books'
-                return title;
-            }
-        },
+        name:'BookList',
+        data(){return{title:'All Books'}}
     }
 </script>
 
