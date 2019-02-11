@@ -18,6 +18,7 @@
         },
         methods: {
             data() {
+                title = 'All Books'
                 return title;
             }
         },
